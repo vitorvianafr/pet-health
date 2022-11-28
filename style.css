@@ -51,3 +51,70 @@
     font-size: 56px;
     color: #758ecd;
 }
+
+.segundo-bloco {
+    height: 600px;
+    width: 100vw;
+
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.plano-container{
+    width: 350px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    gap:16px
+}
+.animal-imagem{
+    height: 150px;
+}
+.animal-titulo{
+    font-size: 36px;
+    color: #70cdff;
+}
+.plano-texto{
+    font-size: 20px;
+    line-height: 36px;
+    width: 224px;
+    color: #c4c4c4;
+}
+.terceiro-bloco {
+    height: 600px;
+    width: 100vw;
+
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+@media (max-width:1000px) {
+    
+    .primeiro-bloco{
+        height: 500px;
+    }
+    .cachorro-imagem {
+        display: none;
+    }
+    .menu{
+        gap: 32px;
+    }
+    .texto-principal{
+        font-size: 30px;
+        width: 90vw;
+    }
+    .texto-clicavel{
+        font-size: 40px;
+    }
+    .segundo-bloco{
+        flex-direction: column;
+        height: auto;
+        gap: 32px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+}
