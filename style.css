@@ -86,10 +86,39 @@
 .terceiro-bloco {
     height: 600px;
     width: 100vw;
+    background-color: #ADE2FF;
 
     display:flex;
     align-items: center;
     justify-content: center;
+}
+.animal-titulo2{
+    font-size: 36px;
+    color: white;
+}
+.preço{
+    font-size: 50px;
+    color: white;
+    height: 60px;
+}
+.plano-texto2{
+    font-size: 13px;
+    color: white;
+    line-height: 30px;
+    
+}
+.subt{
+    font-size: 18px;
+    color: white;
+    height: 40px;
+}
+.plano-container2{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
 }
 @media (max-width:1000px) {
     
@@ -116,5 +145,11 @@
         padding-top: 40px;
         padding-bottom: 40px;
     }
-
+    .terceiro-bloco{
+        flex-direction: column;
+        height: auto;
+        gap: 32px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
 }
