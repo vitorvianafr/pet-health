@@ -91,25 +91,23 @@
     display:flex;
     align-items: center;
     justify-content: center;
+    color: white;
+    
 }
 .animal-titulo2{
-    font-size: 36px;
+    font-size: 30px;
     color: white;
 }
 .preço{
     font-size: 50px;
-    color: white;
     height: 60px;
 }
 .plano-texto2{
-    font-size: 13px;
-    color: white;
-    line-height: 30px;
+    font-size: 13px
     
 }
 .subt{
     font-size: 18px;
-    color: white;
     height: 40px;
 }
 .plano-container2{
@@ -118,7 +116,15 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 5px;
+    gap: 10px;
+}
+.plano-detalhe{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+.pata{
+    height: 20px;
 }
 @media (max-width:1000px) {
     
